@@ -1,0 +1,24 @@
+
+# Dependencies
+node_modules/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Expo generated files
+.expo/
+dist/
+web-build/
+
+# Local development tools
+.claude/
+CLAUDE.md
+AGENTS.md
+.vscode/
+
+# Logs and temporary files
+*.log
+*.tsbuildinfo
+.git-backup/
