@@ -56,3 +56,10 @@ Verify that lead appears in the app automatically.
 Project Status 
 
 The End to End real-time lead delivery workflow has been implemented and tested successfully
+
+Assumptions:
+
+A meta Developer App, Facebook page and lead Ads form are already configured with the necessary webhook subscriptions and permissions
+The Node.js backend runs locally on port 3000 and ngrok provides a public HTTPS URL for receiving webhool notifications and connectiong the mobile application
+The forms data are temporarily stored in backend and gets deleted when we restart the server 
+The Integration is demonstrated using Meta's Lead Ads Testing tool and an already open React Native application, valid meta credentials and an active connection are required.
